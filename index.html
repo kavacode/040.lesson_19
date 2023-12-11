@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
 	<title>040.lesson_19</title>
 </head>
 <body>
 	<h1>Homework #40</h1>
 	<div class="container">
-		<h1>GitHub User Explorer</h1>
+		<h2>GitHub User Explorer</h2>
 		<div class="search-container">
-
+			<input type="text" id="usernameInput" placeholder="Enter GitHub username">
+			<button onclick="searchUser()">Search</button>
+			<button onclick="getRandomUserData()">Random User</button>
 		</div>
 		<div id="userInfo"></div>
 	 </div>
